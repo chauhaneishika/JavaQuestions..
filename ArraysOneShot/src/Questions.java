@@ -200,30 +200,100 @@
 
 //9
 
-public class Questions {
-    public static void print(int[] arr){
-        for(int i=0;i<arr.length;i++) {
-            System.out.print(arr[i]+" ");
-        }
-        System.out.println();
-    }
-    public static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
+//public class Questions {
+//    public static void print(int[] arr){
+//        for(int i=0;i<arr.length;i++) {
+//            System.out.print(arr[i]+" ");
+//        }
+//        System.out.println();
+//    }
+//    public static void swap(int[] arr, int i, int j) {
+//        int temp = arr[i];
+//        arr[i] = arr[j];
+//        arr[j] = temp;
+//    }
+//
+//    static void main() {
+//        int[] arr = {2,3,5,7,9,11,13,17};
+//        int n = arr.length;
+//        print(arr);
+//        int i=0, j=n-1;
+//        while(i<j) {
+//            swap(arr, i, j);
+//            i++;
+//            j--;
+//        }
+//        print(arr);
+//    }
+//}
 
-    static void main() {
-        int[] arr = {2,3,5,7,9,11,13,17};
-        int n = arr.length;
-        print(arr);
-        int i=0, j=n-1;
-        while(i<j) {
-            swap(arr, i, j);
-            i++;
-            j--;
+//public class Questions {
+//    public void rotate(int[] nums, int k) {
+//        int n = nums.length;
+//        k = k % n;  //handle case where k > n
+//
+//        reverse(nums, 0, n-1); //reverse whole array
+//        reverse(nums, 0, k-1); //reverse first k elements
+//        reverse(nums, k, n-1); //reverse remaining n-k elements
+//
+//
+//    }
+//    //helper function to reverse array section
+//    private void reverse(int[] nums, int start, int end) {
+//        while(start < end) {
+//            int temp = nums[start];
+//            nums[start] = nums[end];
+//            nums[end] = temp;
+//            start++;
+//            end--;
+//        }
+//
+//    }
+//}
+
+//right rotation
+import java.util.Scanner;
+
+public class Questions {
+    //function to rotate the array
+    public static void rotate(int[] nums, int k) {
+        int n = nums.length;
+        k = k % n; //handle if k>n
+
+        reverse(nums, 0, n-1); //reverse whole array
+        reverse(nums, 0, k - 1); //reverse first k elements
+        reverse(nums, k, n-1); //reverse the rest
+
+    }
+    //helper function to reverse part of the array
+    private static void reverse(int[] nums, int start, int end) {
+        while(start <  end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
         }
-        print(arr);
+    }
+    // Main method to test
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the array size: ");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+
+        System.out.println("Enter the array elements: ");
+        for(int i = 0; i < n;i++) {
+            arr[i] = sc.nextInt();
+        }
+        System.out.println("Enter k (rotation steps): ");
+        int k = sc.nextInt();
+
+        rotate(arr, k);
+
+        System.out.println("Rotated Array: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
     }
 }
-
