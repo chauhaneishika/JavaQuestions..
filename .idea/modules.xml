@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayReferences/ArrayReferences.iml" filepath="$PROJECT_DIR$/ArrayReferences/ArrayReferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArraysOneShot/ArraysOneShot.iml" filepath="$PROJECT_DIR$/ArraysOneShot/ArraysOneShot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composition/Composition.iml" filepath="$PROJECT_DIR$/Composition/Composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComputerFacory/ComputerFacory.iml" filepath="$PROJECT_DIR$/ComputerFacory/ComputerFacory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EncapsulationChallenge/EncapsulationChallenge.iml" filepath="$PROJECT_DIR$/EncapsulationChallenge/EncapsulationChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PolymorphismChallenge/PolymorphismChallenge.iml" filepath="$PROJECT_DIR$/PolymorphismChallenge/PolymorphismChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringFormatting/StringFormatting.iml" filepath="$PROJECT_DIR$/StringFormatting/StringFormatting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringOptions/StringOptions.iml" filepath="$PROJECT_DIR$/StringOptions/StringOptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheObjectClass/TheObjectClass.iml" filepath="$PROJECT_DIR$/TheObjectClass/TheObjectClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UsingArrays/UsingArrays.iml" filepath="$PROJECT_DIR$/UsingArrays/UsingArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled1.iml" filepath="$PROJECT_DIR$/untitled1.iml" />
+    </modules>
+  </component>
+</project>
