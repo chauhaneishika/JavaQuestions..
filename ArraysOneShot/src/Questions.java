@@ -251,7 +251,6 @@
 //    }
 //}
 
-//right rotation
 import java.util.Scanner;
 
 public class Questions {
@@ -297,3 +296,5 @@ public class Questions {
         }
     }
 }
+
+//if you want left rotation then replace k with 0 in this reverse call method..
