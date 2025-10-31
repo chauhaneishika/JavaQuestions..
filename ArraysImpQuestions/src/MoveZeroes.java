@@ -25,5 +25,5 @@ public class MoveZeroes {
 
         System.out.print(Arrays.toString(nums));
     }
-
 }
+
