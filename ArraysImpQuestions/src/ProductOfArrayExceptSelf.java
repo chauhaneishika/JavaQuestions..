@@ -17,7 +17,6 @@ public class ProductOfArrayExceptSelf {
             suffix *= nums[i + 1];
             ans[i] *= suffix;
         }
-
         return ans;
     }
 
