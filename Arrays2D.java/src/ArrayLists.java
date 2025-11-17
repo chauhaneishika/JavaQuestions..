@@ -5,15 +5,26 @@ public class ArrayLists {
         ArrayList<Integer> a = new ArrayList<>();
         a.add(3); a.add(13); a.add(36); a.add(132);
         ArrayList<Integer> b = new ArrayList<>();
-        a.add(1); a.add(2); a.add(3);
+        b.add(1); b.add(2); b.add(3);
         ArrayList<Integer> c = new ArrayList<>();
-        a.add(2); a.add(3); a.add(5); a.add(7); a.add(11);
+        c.add(2); c.add(3); c.add(5); c.add(7); c.add(11);
         ArrayList<ArrayList<Integer>> arr = new ArrayList<>();
         arr.add(a); arr.add(b); arr.add(c);
 
-        System.out.println(arr);
+        //System.out.println(arr);
 
+//        for(int i=0;i<arr.size();i++){
+//            for(int j=0;j<arr.get(i).size();j++){
+//                System.out.print(arr.get(i).get(j)+" ");
+//            }
+//            System.out.println();
+//        }
+        for(ArrayList<Integer> list : arr){
+            for(int ele : list){
+                System.out.print(ele+" ");
+            }
+            System.out.println();
+        }
 
     }
-
 }
