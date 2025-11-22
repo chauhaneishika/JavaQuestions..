@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Multiply2Matrices {
     public static ArrayList<ArrayList<Integer>> multiply(int[][] a, int[][] b){
+
         int n = a.length;
         int[][] c = new int[n][n];
         for(int i=0;i<n;i++){
@@ -34,6 +35,7 @@ public class Multiply2Matrices {
         };
         ArrayList<ArrayList<Integer>> ans = Multiply2Matrices.multiply(a,b);
         System.out.println(ans);
+
 
     }
 }
