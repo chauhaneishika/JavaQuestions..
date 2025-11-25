@@ -38,6 +38,7 @@ public class PascalsTraingleInput {
         System.out.println("\nGenerated Pascal Traingle:");
         for(List<Integer> row : result){
             System.out.println(row);
+
         }
     }
 }
