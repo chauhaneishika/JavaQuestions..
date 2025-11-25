@@ -35,7 +35,5 @@ public class Multiply2Matrices {
         };
         ArrayList<ArrayList<Integer>> ans = Multiply2Matrices.multiply(a,b);
         System.out.println(ans);
-
-
     }
 }
