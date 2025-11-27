@@ -32,5 +32,6 @@ public class MoveZeroesInput {
 
         System.out.println("Output array:");
         System.out.print(Arrays.toString(nums));
+
     }
 }
