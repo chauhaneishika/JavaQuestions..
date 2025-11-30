@@ -17,6 +17,7 @@ public class MoveZeroes {
             nums[insertPosition++] = 0;
         }
     }
+
     public static void main(String[] args) {
         int[] nums = {1,3,0,9,5,0,6};
         moveZeroes(nums); // can be used in static condition
