@@ -58,5 +58,6 @@ public class NextPermutationInput {
         for(int num : nums) {
             System.out.print(num + " ");
         }
+
     }
 }
