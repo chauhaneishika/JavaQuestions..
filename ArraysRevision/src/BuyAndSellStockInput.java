@@ -17,6 +17,7 @@ public class BuyAndSellStockInput {
     }
 
     static void main() {
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number of days: ");
@@ -31,5 +32,6 @@ public class BuyAndSellStockInput {
 
         int result = maxProfit(prices);
         System.out.println("Max Profit = "+ result);
+
     }
 }
