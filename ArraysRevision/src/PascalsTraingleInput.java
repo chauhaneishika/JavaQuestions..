@@ -19,6 +19,7 @@ public class PascalsTraingleInput {
             return ans;
         }
     }
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -38,7 +39,6 @@ public class PascalsTraingleInput {
         System.out.println("\nGenerated Pascal Traingle:");
         for(List<Integer> row : result){
             System.out.println(row);
-
         }
     }
 }
