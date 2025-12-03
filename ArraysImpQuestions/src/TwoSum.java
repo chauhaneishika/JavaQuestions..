@@ -15,7 +15,6 @@ public class TwoSum {
         }
         return arr;
     }
-
     static void main() {
         Scanner sc = new Scanner(System.in);
 
@@ -39,5 +38,4 @@ public class TwoSum {
         sc.close();
 
     }
-
 }
