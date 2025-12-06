@@ -10,4 +10,3 @@ public class RemoveDuplicateFromSortedArray {
         return ++j;
     }
 }
-
