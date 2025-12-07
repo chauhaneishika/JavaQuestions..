@@ -34,6 +34,7 @@ public class RowWithMaxSumInput {
                 row = i;
             }
         }
+
         System.out.println("Row with maximum sum: " + row);
         System.out.println("Maximum sum: " + maxSum);
 
